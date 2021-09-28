@@ -74,7 +74,7 @@ endGameEl.addEventListener("click", () => {
         //bilgisayarın elindki kartları göstersin kendi elindeki kartları göstersin 21 e yakın olan kazanan olsun
         
         finishEl.innerHTML += ("<h4> Bilgisayarın Elindeki Kartlar Toplamı: " + finishSum +"</h4>");
-        setTimeout(finishGame, 800);
+        setTimeout(finishGame, 200);
         
     }else{alert("Oyuna başlamadan oyunu bitiremessiniz!")}
 })
