@@ -21,10 +21,12 @@ h1{
 }
 
 button{
-  background-color: white;
+  background-color: rgb(120, 198, 243);
   border: 1 px solid blue;
-  padding: 12px 25px;
+  padding: 25px 50px;
   cursor: pointer;
+  color: rgb(153, 17, 112);
+  font-weight: bold;
 }
 
 /* The Modal (background) */
