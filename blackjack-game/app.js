@@ -30,9 +30,9 @@ playEl.addEventListener("click", function(){
 
         buttonWasPressed = true;
         statusEl.innerHTML = "<h3>Oyun Başladı</h3>";
-
+		
     }else{alert("Oyun zaten başladı!")}
-
+	
 })
 
 drawEl.addEventListener("click", () => {
@@ -54,7 +54,7 @@ drawEl.addEventListener("click", () => {
         }
     }else{alert("Önce oyunu başlatmalısın!")}
 })
-const finishSum = Math.floor(Math.random() * 11 + 11);
+const finishSum = Math.floor(Math.random() * 6 + 16);
 
 function finishGame(){
     newGameEl.innerHTML = "<button onclick= 'window.location.reload()'> Yeni Oyun </button>";
