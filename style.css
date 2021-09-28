@@ -20,6 +20,12 @@ h1{
     font-weight: bold;
 }
 
+button{
+  background-color: white;
+  border: 1 px solid blue;
+  padding: 12px 25px;
+  cursor: pointer;
+}
 
 /* The Modal (background) */
 .modal {
